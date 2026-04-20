@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sonozap"
+version = "0.1.0"
+description = "Sonaer Sonozap preflight GUI for verifying RS-232 device communication."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pyserial>=3.0"
+]
+
+[tool.hatch.envs.default]
+python = "3.12"
+dependencies = [
+  "pyserial>=3.0"
+]
+
+[tool.hatch.envs.default.scripts]
+preflight = "python sonaer_preflight_gui.py"
+control = "python sonaer_control_gui.py"
