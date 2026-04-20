@@ -1,0 +1,535 @@
+# SONOZAP Atomizer
+
+### ®
+
+# Operating Instructions
+
+```
+Software Version 6. 15
+```
+Thank you for selecting Sonaer’s Ultrasonic Atomizer. Please read through these operating
+instructions so you will know how to operate your Atomizer properly. After you have finished
+reading the instructions, put them away in a safe place for future reference.
+
+**WARNING: Avoid contact with energized nozzle tip. This device will cut through tissue
+and damage cells.**
+
+As with all electronic equipment, dropping unit may cause damage to generator or atomizer.
+
+**NOTE 1:** Before operating your new ultrasonic atomizer, check for any damage from shipping and
+ensure that a properly grounded **95 - 265 VAC** outlet is available.
+
+Connection to the generator is to be provided with a properly grounded outlet, live and neutral
+connections. Failure to connect properly could damage generator or be a shock hazard, no
+warranty will apply. **Pin assignments are as follows: L= Live or Hot, N=Neutral, E=Earth
+Ground
+NOTE 2:** Do not turn generator on and off repeatedly, it may corrupt computer memory. To operate
+turn off, wait 3 0 seconds for the generator to completely shut down and turn on again.
+
+A 1 /8" Swage lock ( not included) at the rear of probe needs to be tightened with wrenches.
+**Holding probe case and tighten with one wrench will break weld inside probe**. No warranty
+will apply.
+
+This ultrasonic atomizer has protective software assuring proper operation. Making measurements
+to review inner workings could burn this generators electronic circuits. No warranty will apply.
+
+Alteration or modifications carried out without appropriate authorization will void warranty.
+
+Disassembly of atomizer or generator for any reason will void warranty.
+
+
+## Table of Contents
+
+- General Description
+- Display
+- Key Pad
+- On/Off Key
+- Enter Key
+- Arrow Keys
+- Menus
+- Serial Number
+- Select Probe
+- Calibrate New Probe
+- VMD Droplet Simulator
+- Cleaning
+- Power Precision
+- Automatic Atomization Power Adjust (AAPA)
+- Constant Power
+- Standard / Turbo
+- External Enable Pin
+- External Power Control
+- External Trigger
+- Power Units
+- Number of Power Decimal Places
+- Contrast Adjustment
+- Set Defaults
+- Power Control
+- Rear Panel Description
+- Ultrasonic Atomizer Operation
+- PC Control
+- DB9 Pin Assignments
+- Externally Operating Atomizer Nozzle
+- Technical Support
+- Troubleshooting
+- Specifications
+- LIMITED WARRANTY
+
+
+## General Description
+
+The **SONOZAP** **_Atomizer_** generator contains the latest advances in circuitry and software design, for
+efficiently operating your atomizer nozzle.
+
+On the front panel (Figure 1 ) is a 4 line by 20 character LCD display that is programed to provide the
+operating performance of the nozzle attached, and user settings. The front panel also has a selectable
+**UP DOWN** ARROWS, that gives the operator control over the power of the attached nozzle and a five
+key membrane switch for programing user parameters through a **menu**. At the back of the generator
+is the ON/OFF power switch, 95-265V power input, output jack to the nozzle and RS- 232
+communication connector with external enable/disable pin, PLC connections and external power
+control. See page 12 for DB9 pin assignments.
+
+**Figure 1:**
+
+
+**Display:**
+
+The display provides the operator with information about the performance of the nozzle. At the top of
+the display is the SONOZAPTM Atomizer name. The next line provides the power for the process.
+
+The next line ( not shown) provides the operator with the frequency that the probe is operating at.
+
+The next line (not shown) provides the operator with a Bar Graph for Power Level information.
+
+## Key Pad
+
+The key pad is made up of four keys, each key has between one and two functions, depending upon
+the mode of operation.
+
+Each Key will be described below:
+
+
+**On/Off:**
+
+The On/Off button is used to turn the power to the probe On and Off. The status of this button is
+indicated on the display next to the POWER. If the display indicates “OFF”, no power is delivered to
+the probe. If the display reads a POWER, the unit is on.
+
+**Enter:**
+
+The enter key allows access to the Configuration Menu. It displays the unit serial number with the set-
+up information for the Nozzle purchased, Power Units, VMD Droplet Simulator, Cleaning and additional
+operations. Pressing Up/ Down will scroll to the next item. Pressing Enter will allow adjustments to the
+function selected. Pressing ON/OFF saves the results.
+
+**Arrows:**
+
+The arrows are used to scroll through the menu, change power and settings.
+
+Use the arrows to select nozzle frequency and operation.
+
+The up arrow causes the digits to scroll upwards
+
+The down arrow causes the digits to scroll downwards or move to the next field.
+
+Pressing On/OFF will save the results.
+
+
+**Menu:**
+
+In the default screen, display has Sonozap Atomizer and PWR:OFF
+
+Press the enter key and the units menu items are displayed.
+
+**Menu Items**
+
+**Serial Number S/N**
+
+## Select Probe
+
+**Calibrate New Probe
+VMD Droplet Simulator
+Cleaning
+Power Precision
+Automatic Amplitude Power Adjust (AAPA)
+Constant Power
+Standard / Turbo
+External Enable Pin
+External Power Control
+External Trigger
+Power Units
+Number of Power Decimal Places
+Display Contrast Adjustment
+Default Parameters**
+
+User can use the up down arrows to point to the menu items listed. Pressing the icon **Enter** will select
+the feature.
+
+**Description of Menu Items**
+
+## Serial Number
+
+This is the serial number of the unit. The serial number is the date the unit was calibrated for the
+customer and is representative of the date purchased. The first two characters is the month, the next
+two the day, the next two the year and the last two the unit number.
+
+**Select Probe**
+
+Select Probe allows the user to select the nozzle that is programmed into the generator. This unit can
+
+
+be programmed for up to eight nozzles, each can be selected if purchased, but only one at a time can
+be operated. Use the up down arrows to select the nozzle for operation, pressing enter will select that
+nozzle. When in the menu the current frequency is displayed.
+
+## Calibrate New Probe
+
+This feature is only used when the customer orders a new probe of the same frequency originally
+purchased. Only a new probe that is identified in the **Select Probe** menu is permitted with this feature.
+No other nozzle can be used with this feature. Attach new probe and follow instructions on screen to
+calibrate. The user wil be instructed to turn unit off before settings are to be used.
+
+## VMD Droplet Simulator
+
+Allows user to fine tune a process by modifying the parameters of the solution sprayed while operating
+the atomizer nozzle. Droplet size displayed when enabled, simulates the information provided to the
+generator and shows size changes based on an atomizers frequency and power. The display will show
+the drop size and distribution. To operate, enable in the main menu, select each parameter and
+change to match solution and flow rate used. This information is inserted into our proprietary algorithm
+for determining VMD droplet size and is displayed on the top line of the generators running screen in
+real time when enabled. To leave menu, press **ON/OFF**. The range of viscosity is 0.10 - 500 cp,
+surface tension 10. 0 - 99. 9 Dynes/cm, density. 500 - 3. 500 g/cc and flow rate. 010 - 100 ml/min.
+
+## Cleaning
+
+Enabling this feature will keep the atomizer nozzle clean after spraying.
+In the default screen, pressing **ENTER** will bring up the user menu, scroll to **Cleaning function** in the
+list and use the **UP/ DOWN** arrows to change to ON.
+Select the **ENTER** key to exit to default screen.
+Press the **ON/OFF** to go running. The display will read **CLEANING PROBE** , **START PUMP.** Begin
+pumping cleaning solution (ie. Alcohol, MEK, Acetone, Soapy Solution).
+Power to the probe will automatically adjust during the cleaning operation and will operate for one
+minute. After the time expires, the generator will indicate **Process Complete** and return to the default
+screen. At this point the user can clean again or enter the menu and turn feature **OFF**.
+
+## Power Precision
+
+The bottom of the generator has a bar graph showing the percentage of power sent to the atomizer
+nozzle**.** Using the up down arrows will increase or decrease the power in 1 % increments up to 100 %.
+Entering the menu and scrolling to PWR Precission allows the user to change from standard 1%
+increments to fine 0. 3 - 0.5% steps or extra fine, depending on the probe and calibration configuration
+performed at the factory.
+**NOTE:** Extra fine mode allows the power to go down from 1% for super low flow and precision coating.
+
+## Automatic Atomization Power Adjust (AAPA)
+
+Auto Atomization Power Adjustment is a function that allows the atomizer nozzle to keep the tip
+amplitude constant during liquid loading based on the flow rate of the liquid and the liquid parameters,
+viscosity, density, surface tension, molecular structure. The function default value for this feature is on.
+
+
+In the main menu the up down arrows allows selection this to be off. This is useful for very low flows
+using a micro feed tubes or for coating applications. Some errors can occur if liquids parameters
+cause poor operation of the atomizer nozzle. The menu will display the current condition of this feature
+either on or off
+
+## Constant Power
+
+The constant power mode allows the user to freeze the power delivered to the probe for a process.
+When freezing the power the AAPA will be overridden and the number of decimal places displayed
+will be one. The generator will hold the power constant at all times even during load changes which
+could have a effect on the performance. It is best to set the flow rate and conditions before freezing
+the power in place. Once frozen the power will be saved even when shut off, so it can be retrieved for
+the next use. To release this condition use the up/down arrows. In the menu the display will indicate
+if this is on or off.
+
+## Standard / Turbo
+
+This mode allows the user to select the default standard or option turbo. In the standard mode the
+probe will operate as in previous versions and sometimes can be too low for the solution being
+atomized, like oils. With the turbo option selected, extra power is delivered to the probe for difficult
+solutions. It maybe necessary to order the probe with cooling ports when using this option since the
+power is higher. In the menu the mode standard or turbo operation mode is displayed.
+
+## External Enable Pin
+
+External Enable Pin on the DB9 connector is pin 4, controlling the status of this pin is used to turn on
+and off the nozzle during atomization. This is used for interfacing the generator to other types of
+equipment. The default value for this feature is for pin 4 to be open, internally high, and the atomizer
+will work without a connection to this connector. Pulling this pin to ground or pin 5 will disable
+atomization. If the application requires the opposite configuration, select this feature and use the up
+down arrows to change the status of this pin to disable when high and enable when pulling to ground.
+The menu will display the status of this feature.
+
+## External Power Control
+
+External power control is on the DB9 pin 1. Selecting this feature will allow the atomizer nozzle to be
+controlled with a 0 -5 VDC signal, can be used with a PLC. Zero being no power and 5 VDC maximum
+power. The default setting for this function is off and the generator will power the nozzle with the
+up/down arrows. A pull down resistor is internal to the generator and no signal needs to be present.
+
+## External Trigger
+
+External trigger function is pin 9 on the DB 9. This function works with the external enable/disable (pin
+4). Entering the menu a selection is provided to operate with the external enable/disable. A time delay
+can be set by the user for the application. Default is OFF. Use On/OFF to change TRIGGER
+sequence. Use UP/DN to change delay. Trigger is a 0 -5 VDC Output (Not a Input).
+
+```
+MODES
+Ext Disable ( 4 ) Trigger ( 9 ) Delay Disable PWR
+```
+
+```
+Ext Disable (4) Disable PWR Delay Trigger ( 9
+```
+## Power Control
+
+PC Control will allow this generator to be controlled with host software. Sonaer makes an app for
+operating all the functions of the atomizer nozzle through a PC without using the front panel controls.
+Connection can be made with a virtual USB cable to the units DB 9 connector at the rear of the
+generator. For applications that are custom, the customer can write their own program following the
+software protocol document found on our website to operate the nozzle anyway possible. This feature
+is not in the menu and is available with all atomizer generators. Software to be purchased separately.
+
+## Power Units
+
+Selecting this feature will allow the user to view the power units available for display. The default value
+is Watts, using the up down arrows one can select dBm or joules/s. In the menu the selection will be
+displayed.
+
+## Number of Power Decimal Places
+
+This feature displays the number of decimal places viewed on the display for the power to the nozzle.
+The default value is one decimal place. The user can select 0, 1, 2 or 3 places. In the menu the current
+number of decimal places will be shown.
+
+## Contrast Adjustment
+
+Allows the user to adjust the contrast viewed on the display.
+
+Use the Up Down arrow to change the contrast of the display.
+Pressing enter will return to the configuration menu.
+Selecting the **On Off** key will return to the default screen.
+
+**Power Control:**
+
+The power control allows the operator to control the amplitude of the probe. The power will be zero
+when first turned on. As the Up arrow is pressed, more power will be delivered to the probe. A **Bar
+Graph** at the bottom will display the level. Pressing the Down arrow will decrease power.
+
+
+## Rear Panel Description
+
+The rear panel of the Sonozap piezo generator contains a BNC connector, 95 /2 65 VAC Input power,
+On/Off Switch and DB 9 connector for programing and external control. Changing the status of this
+feature can be found in the menu. A pull up resistor is internal to the circuit and is not needed. An open
+circuit is adequate.
+
+**Operating the Sonozap Atomizer generator:**
+
+Attach the BNC cable assembly, that came with your unit, to the back of the generator. Make sure that
+the transducer that came with your unit is also attached.
+
+Plug in the 95-265 VAC power cord that came with your unit. Assure the power outlet is properly wired
+and grounded.
+
+Turn the power switch at the rear panel, ON. A splash screen will pop-up showing the company name
+a software revision level and serial number.
+
+The display at this point should show the Sonozap Atomizer name followed by PWR: OFF.
+
+The Sonozap Atomizer generator was pre calibrated from the factory. Press the On/Off button located
+on the front panel. Slowly increase the power to the probe with the up arrow. At this point it is difficult
+to determine whether the unit is on or off. To determine if the power is on, one can **lightly** touch the
+end of the transducer tip. When this is done a slight vibration should be felt. If liquid is on the tip of the
+probe, it will begin to agitate, until the power is high enough to atomize the liquid.
+
+
+## Ultrasonic Atomizer Operation
+
+Connect your fluid source to the back of the transducer with a 1 /8 inch swage-lock fitting. Before
+pumping, have power to the probe on, and bar graph should be at 50 % power. Slowly pump the fluid
+through the probe. As the fluid reaches the tip end, it should atomize into droplets. Controlling both
+the power level and flow rate for a given liquid needs to be adjusted for best results. To complete
+spraying, disable pump then the atomizer nozzle
+
+**Note** : If the transducer is used to spray oils, it might be necessary to dilute them for best results. Not
+all higher viscosity liquids will atomize. Molecular structure, viscosity, surface tension and density play
+a role in the ability to atomize and the particle distribution data that can be measured.
+
+**Atomizer should be operated at full power only when high flows are used, excessive heating
+could occur with probes over 13 0 kHz using little or no liquid flow. Low flows usually require
+low power levels for fine sprays.**
+
+**If the atomizer frequency goes down about 100 Hz in eight to ten seconds, this is a sign of
+beginning to overheat the probe. Adjust power and flow rate accordingly to keep frequency
+basically steady.**
+
+**If the application requires high power low flow rate, proper cooling should be provided to
+keep atomizer case at 150 degrees F. Atomizer nozzle can be ordered with cooling ports, add
+CP at end of P/N.**
+
+If atomizer nozzle does not operate, liquid inside can be loading the device. Blow out liquid, energize
+probe, begin liquid flow. To return, stop liquid flow, disable energy to probe.
+
+Excessive heating may be a sign of poor operation, reduce power if necessary.
+
+Atomizer generator will track the frequency of the probe during operation, while heating. If the user
+switches probes or shuts off generator. Turning on again the generator will assume it is operating at
+room temperature and probe may not operate correctly.
+
+Over pumping fluids through the probe will cause droplets to not be fully atomized. Reduce the flow rate
+if necessary.
+
+Over powering the probe will cause liquid to be thrown off the tip in large droplets. Reduce power level
+until uniform atomization is achieved. Use a smooth flowing pump for best results.
+
+Do not mount any fixtures or load to the vibrating tip. This will cause the atomizer to under perform.
+
+Mounting can be best achieved by mounting to the case.
+
+
+## PC Control
+
+This unit is equipped with a Windows PC Controller. It will operate on all Windows based operating
+
+systems. The software program needs to be purchased from Sonaer to allow a computer control the
+functions of the atomizer nozzle through the RS 232 connector at the rear of the generator. Some
+additional functions have been included with the software. These include a PWM mode and Energy
+mode.
+
+For users who like to write their own software to control all the functions of the atomizer nozzle, a
+technical document can be downloaded from the website.
+
+## DB9 Pin Assignments
+
+**NOTE: Do Not Connect to Pins Unless Used for
+Function Listed Below. (DAMAGE MAY OCCUR)
+Refer to semiconductor for input and output
+capabilities 74AHC04.**
+
+Pin 1: External power control, enable this feature selectable from the main menu, 0-5VDC
+Pin 2: RXD Receive data for RS 232 communication, use with PC APP or user generated software control
+Pin 3: TXD Transmitt data for RS 232 communication, use with PC APP or user generated control
+Pin 4: External enable/disable, PLC, user configurable high or low disable or enable from main menu ,0-5VDC
+Pin 5: Earth ground and ground for the entire system, needs to be connected for all DB9 functions
+Pin 6 : Used when atomizer generator is operated in a system. Allows user to use a signal to enter **RUNNING** state.
+Bring pin low for 250 ms and release will enter running state, 0-5VDC
+Pin 7: PLC Busy signal, high busy, low not busy, 0-5 VDC
+Pin 8: PLC Error signal for functional faults, high error, low no error, 0-5VDC
+Pin 9: External trigger, enable/disable, configurable through main menu, 0-5VDC
+
+
+## Externally Operating Atomizer Nozzle
+
+On the Sonaer website is the Atomizer Software Protocol Document which can be used to operate the
+atomizer nozzle functions with user specific software. A detailed description of all the commands is
+provided so the user can interface and custom design a specific set of instructions for the application.
+For more information see our website at [http://www.sonozap.com](http://www.sonozap.com)
+
+## Technical Support
+
+For any questions concerning the operation of Sonaer’s Sonozap atomizer transducer and generator,
+please feel free to contact us at 6 31 -7 56 -4 780 , or email us at info@sonozap.com
+
+**Troubleshooting:**
+
+If the generator when turned on exhibits a condition where two blank lines remain on the LCD screen
+or the characters look gobbled the problem probably is EMI contamination, over voltage or shorting
+of power supply or turning off on too rapidly.
+
+Any error message from the generator needs to be investigated. These messages are the result of
+the cable breaking, probe clogged or damaged, overheating of power drivers inside the unit.
+Generator or probe needs to be repaired in these cases.
+
+If the generator displays “ **shut unit off and attach converter** ” this is probably due to the cable
+breaking the connection to the atomizer nozzle or generator. Also, this could be a broken
+connection in side the nozzle. In this case the generator automatically disables power.
+
+A message that indicates “ **Check probe frequency or probe loading** ” is the result of three
+possibilities.
+
+1. The frequency selected from the menu does not match the probe being used.
+2. Something is inside the probe preventing it from vibrating. Blow out with air.
+3. Power is too low and something is on the tip causing excessive loading for the power selected.
+
+A message that indicates “ **Current Overload** ” is the result of too much power measured in the
+power amplifiers.
+
+A message that indicates “ **Check FETs** ” could be the result of the power amplifiers burned or
+improper shutting down unit and turning on too quickly**.**
+
+
+**Specifications:**
+
+Features:
+
+- Software up-grades
+- Artificial Intelligence software
+- VMD Volume Mean Diameter Simulator
+- Will operate from a PC using the Sonaer app.
+- Can be controlled with software written by the customer for processes
+- One of eight probes can be selected
+- PC Control of all functions
+- Standard or Turbo operation
+- Auto Atomization Power Adjustment (AAPA)
+- Constant Power Feature
+- Cleaning Feature
+- Selectable Power Adjustment, Standard 1%, Fine ~.3%, Extra Fine Below
+.3%
+- Selectable External Enable/Disable Pin 4 DB 9
+- External Power Control, 0 - 5 VDC, Pin 1 DB
+- External Trigger, pin 9 DB
+- PLC Interface Capability
+- Alarm for Faults and Processes
+- User selectable power in Watts, dBm or joules/s
+- User selectable display of power decimal places
+- LCD Display (Displays Operating Parameters and
+Performance)
+- Contrast Adjustment
+- Four Key Keypad
+- Automatic Tuning
+- Surface Mount Technology
+- Variable Stroke Control
+- Over Load Protection
+- EMI/EMC Protected
+- Wide Operating Bandwidth unlimited
+- Measures: 9 "w x 8 "d x 3. 25 "h
+
+
+## LIMITED WARRANTY
+
+**For a period of one year from original date of purchase (the warranty period) from Sonaer or an authorized
+dealer, Sonaer warrants that products distributed by Sonaer in the USA that fail to function properly under
+normal use due to a manufacturing defect when installed and operated according to the owner's instructions
+enclosed with the unit will be repaired or replaced with a unit of comparable value, at the option of Sonaer,
+without charge to you for parts or actual repair work. Parts supplied under this warranty may be new or rebuilt
+at the option of Sonaer.
+This warranty covers the product during the warranty period whether in the possession of the original owner
+or subsequent owner proved by receipt. In the event service is required, the product must be delivered within
+the warranty period, customer will provide transportation, return of the repaired unit will be payed by Sonaer.
+This warranty does not cover the costs of parts or labor which would be otherwise provided without charge
+under this warranty, should the product be repaired by any other source other than Sonaer.
+The warranty will be void should any alterations or modifications be performed to the product without
+appropriate authorization from Sonaer.
+The warranty will be void for all experimental uses of this equipment without the written consent of Sonaer,
+Inc.**
+
+```
+HOLD HARMLESS
+```
+**Sonaer makes devices that make very fine particles from liquids. Some of the liquids as
+gasoline, alcohols, jet fuel, acetone can become very explosive when exposed to heat or
+sparks and will cause death or bodily harm. Biological agents when made into fine particles
+can and will travel through the air which will cause death or bodily harm. Customers who use
+such equipment for research or processes should take the proper precautions to prevent any
+harm to people or damage to property and will hold Sonaer and its representative held
+harmless for all uses of this equipment. This equipment is experimental for scientific
+research and will benefit society with improvements in medicine and new processes.**
+
+**Under no circumstances will this equipment be sold directly or indirectly to any nation that
+the Untied States of America deems to house terrorists or any other organization here or
+abroad with the intent to cause bodily harm or property damage. This equipment is for
+scientific purposes and friendly use only.**
+
+
